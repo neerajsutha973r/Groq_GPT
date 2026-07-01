@@ -1,9 +1,9 @@
 import './App.css';
 import Sidebar from "./Sidebar.jsx";
 import ChatWindow from "./ChatWindow.jsx";
-import {MyContext} from "./MyContext.jsx";
 import { useState } from 'react';
 import {v1 as uuidv1} from "uuid";
+import { MyContext } from "./MyContext.jsx";
 
 function App() {
   const [prompt, setPrompt] = useState("");
